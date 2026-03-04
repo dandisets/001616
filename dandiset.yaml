@@ -9,9 +9,32 @@ access:
   schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 1631285064
+  numberOfFiles: 20
+  numberOfSubjects: 20
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ProcessingModule
+  - Units
+  - ElectrodeGroup
 citation: 'Darcher, Alana (2025) SUMMER: Dataset of human single-neuron activity during
   an 83-minute movie from 2,286 neurons and 29 patients (Version draft) [Data set].
   DANDI Archive. https://dandiarchive.org/dandiset/001616/draft'
