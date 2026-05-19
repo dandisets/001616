@@ -311,7 +311,11 @@ description: 'SUMMER: Single Unit activity during a Movie in human Medial tempor
   annotated movie features such as character presence, location, event boundaries,
   and main character speech. We also provide manually-reviewed electrode localizations,
   spike sorting quality metrics, and waveform information for each neuron. '
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: 095/10 University of Bonn
+  schemaKey: EthicsApproval
 id: DANDI:001616/draft
 identifier: DANDI:001616
 keywords:
@@ -327,6 +331,9 @@ keywords:
 - spike sorting
 - event boundaries
 - electrode localization
+- machine learning
+- 'decoding '
+- encoding
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
