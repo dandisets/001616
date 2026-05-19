@@ -61,13 +61,14 @@ contributor:
   - identifier: https://ror.org/01xnwqx93
     name: University Hospital Bonn
     schemaKey: Affiliation
-  email: alana.darcher@gmail.com
+  email: darcher@tuta.io
   identifier: 0000-0001-9048-9732
   includeInCitation: true
   name: Darcher, Alana
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+  url: https://alanadarcher.com
 - affiliation:
   - identifier: https://ror.org/02kkvpp62
     name: Technical University of Munich
@@ -340,6 +341,18 @@ relatedResource:
   resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://doi.org/10.7554/eLife.106758.1
+- name: SUMMER GitHub Repository
+  relation: dcite:IsSupplementedBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/mormannlab/SUMMER
+- name: SUMMER Codebase (Zenodo)
+  relation: dcite:IsSupplementedBy
+  repository: Zenodo
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://zenodo.org/records/18790255
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
