@@ -304,13 +304,14 @@ contributor:
   schemaKey: Organization
 dateCreated: '2025-09-29T12:19:12.581381+00:00'
 description: 'SUMMER: Single Unit activity during a Movie in human Medial temporal
-  lobe via Electrophysiological Recordings. This dataset contains single neurons activity
-  recorded from the medial temporal lobe of 29 intracranially implanted epilepsy patients
-  as each patient watched the same full-length commercial film, "500 Days of Summer"
-  (83 min. runtime). In addition to the 29 sessions, this dataset includes 53 frame-wise
-  annotated movie features such as character presence, location, event boundaries,
-  and main character speech. We also provide manually-reviewed electrode localizations,
-  spike sorting quality metrics, and waveform information for each neuron. '
+  lobe via Electrophysiological Recordings. This machine learning-ready dataset contains
+  single neurons activity recorded from the medial temporal lobe of 29 intracranially
+  implanted epilepsy patients as each patient watched the same full-length commercial
+  film, "500 Days of Summer" (83 min. runtime). In addition to the 29 sessions, this
+  dataset includes 53 frame-wise annotated movie features such as character presence,
+  location, event boundaries, and main character speech. We also provide manually-reviewed
+  electrode localizations, spike sorting quality metrics, and waveform information
+  for each neuron. '
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
