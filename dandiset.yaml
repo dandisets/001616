@@ -3,11 +3,26 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001871
+  name: temporal lobe
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0002421
+  name: hippocampal formation
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001876
+  name: amygdala
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0002973
+  name: parahippocampal gyrus
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/DOID_1826
+  name: epilepsy
+  schemaKey: Disorder
 access:
-- embargoedUntil: '2027-09-29'
+- embargoedUntil: '2026-05-19'
   schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -35,17 +50,257 @@ assetsSummary:
   - ProcessingModule
   - Units
   - ElectrodeGroup
-citation: 'Darcher, Alana (2025) SUMMER: Dataset of human single-neuron activity during
-  an 83-minute movie from 2,286 neurons and 29 patients (Version draft) [Data set].
-  DANDI Archive. https://dandiarchive.org/dandiset/001616/draft'
+citation: 'Darcher, Alana; Gerken, Franziska; Niediek, Johannes; Kehl, Marcel S; Reber,
+  Thomas P; Liebe, Stefanie; Nett, Laura; Racz, Attila; Kunz, Lukas; Staresina, Bernhard;
+  Rapp, Rachel; Gonçalves, Pedro J; Elezi, Ismail; Borger, Valeri; Surges, Rainer;
+  Leal-Taixé, Laura; Macke, Jakob H; Mormann, Florian (2026) SUMMER: Dataset of human
+  single-neuron activity during an 83-minute movie from 2,286 neurons and 29 patients
+  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001616/draft'
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/01xnwqx93
+    name: University Hospital Bonn
+    schemaKey: Affiliation
   email: alana.darcher@gmail.com
+  identifier: 0000-0001-9048-9732
   includeInCitation: true
   name: Darcher, Alana
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02kkvpp62
+    name: Technical University of Munich
+    schemaKey: Affiliation
+  identifier: 0009-0004-9668-719X
+  includeInCitation: true
+  name: Gerken, Franziska
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+  url: https://franzigrkn.github.io/
+- affiliation:
+  - identifier: https://ror.org/01xnwqx93
+    name: University Hospital Bonn
+    schemaKey: Affiliation
+  - identifier: https://ror.org/03v4gjf40
+    name: Technical University of Berlin
+    schemaKey: Affiliation
+  identifier: 0000-0003-3323-2986
+  includeInCitation: true
+  name: Niediek, Johannes
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01xnwqx93
+    name: University Hospital Bonn
+    schemaKey: Affiliation
+  - identifier: https://ror.org/052gg0110
+    name: University of Oxford
+    schemaKey: Affiliation
+  identifier: 0000-0002-6812-8604
+  includeInCitation: true
+  name: Kehl, Marcel S
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01xnwqx93
+    name: University Hospital Bonn
+    schemaKey: Affiliation
+  - name: UniDistance Suisse
+    schemaKey: Affiliation
+  identifier: 0000-0002-3969-9782
+  includeInCitation: true
+  name: Reber, Thomas P
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01xnwqx93
+    name: University Hospital Bonn
+    schemaKey: Affiliation
+  - identifier: https://ror.org/03a1kwz48
+    name: University of Tübingen
+    schemaKey: Affiliation
+  identifier: 0000-0003-2873-2943
+  includeInCitation: true
+  name: Liebe, Stefanie
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01xnwqx93
+    name: University Hospital Bonn
+    schemaKey: Affiliation
+  identifier: 0009-0003-8659-5956
+  includeInCitation: true
+  name: Nett, Laura
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01xnwqx93
+    name: University Hospital Bonn
+    schemaKey: Affiliation
+  identifier: 0000-0002-3969-9782
+  includeInCitation: true
+  name: Racz, Attila
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01xnwqx93
+    name: University Hospital Bonn
+    schemaKey: Affiliation
+  identifier: 0000-0002-0665-7703
+  includeInCitation: true
+  name: Kunz, Lukas
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/052gg0110
+    name: University of Oxford
+    schemaKey: Affiliation
+  identifier: 0009-0003-8659-5956
+  includeInCitation: true
+  name: Staresina, Bernhard
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03a1kwz48
+    name: University of Tübingen
+    schemaKey: Affiliation
+  identifier: 0009-0001-1698-4767
+  includeInCitation: true
+  name: Rapp, Rachel
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03a1kwz48
+    name: University of Tübingen
+    schemaKey: Affiliation
+  - name: VIB-KU Leuven
+    schemaKey: Affiliation
+  identifier: 0000-0002-6987-4836
+  includeInCitation: true
+  name: Gonçalves, Pedro J
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02kkvpp62
+    name: Technical University of Munich
+    schemaKey: Affiliation
+  identifier: 0000-0002-7047-5808
+  includeInCitation: true
+  name: Elezi, Ismail
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01xnwqx93
+    name: University Hospital Bonn
+    schemaKey: Affiliation
+  identifier: 0000-0002-6987-4836
+  includeInCitation: true
+  name: Borger, Valeri
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01xnwqx93
+    name: University Hospital Bonn
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Surges, Rainer
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02kkvpp62
+    name: Technical University of Munich
+    schemaKey: Affiliation
+  identifier: 0000-0001-8709-1133
+  includeInCitation: true
+  name: Leal-Taixé, Laura
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03a1kwz48
+    name: University of Tübingen
+    schemaKey: Affiliation
+  - identifier: https://ror.org/04fq9j139
+    name: Max Planck Institute for Intelligent Systems
+    schemaKey: Affiliation
+  identifier: 0000-0001-5154-8912
+  includeInCitation: true
+  name: Macke, Jakob H
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01xnwqx93
+    name: University Hospital Bonn
+    schemaKey: Affiliation
+  identifier: 0000-0003-1305-8028
+  includeInCitation: true
+  name: Mormann, Florian
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- awardNumber: 031L0197A-C
+  identifier: https://ror.org/04pz7b180
+  name: German Federal Ministry of Education and Research (BMBF)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: '390727645'
+  identifier: https://ror.org/018mejw64
+  name: German Research Foundation (DFG)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: '276693517'
+  identifier: https://ror.org/018mejw64
+  name: German Research Foundation (DFG)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: '227953431'
+  identifier: https://ror.org/018mejw64
+  name: German Research Foundation (DFG)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: '520287829'
+  identifier: https://ror.org/018mejw64
+  name: German Research Foundation (DFG)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: MO 930/4-2
+  identifier: https://ror.org/018mejw64
+  name: German Research Foundation (DFG)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: M 930/15-1
+  identifier: https://ror.org/018mejw64
+  name: German Research Foundation (DFG)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: iBehave
+  name: NRW Network Grant
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2025-09-29T12:19:12.581381+00:00'
 description: 'SUMMER: Single Unit activity during a Movie in human Medial temporal
   lobe via Electrophysiological Recordings. This dataset contains single neurons activity
@@ -59,23 +314,32 @@ ethicsApproval: []
 id: DANDI:001616/draft
 identifier: DANDI:001616
 keywords:
-- 'human '
-- single neuron
-- movie
-- cognitive neuroscience
+- human
+- single-unit activity
+- single-neuron activity
+- naturalistic stimulus
+- 500 Days of Summer
 - medial temporal lobe
-- hippocampus
-- amygdala
-- entorhinal cortex
-- parahippocampal cortex
-- intracranial
+- microelectrodes
+- extracellular recording
+- Behnke-Fried
+- spike sorting
+- event boundaries
+- electrode localization
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001616/versions/draft/assets/
 name: 'SUMMER: Dataset of human single-neuron activity during an 83-minute movie from
   2,286 neurons and 29 patients'
-relatedResource: []
+relatedResource:
+- name: Decoding movie content from neuronal population activity in the human medial
+    temporal lobe
+  relation: dcite:IsDescribedBy
+  repository: eLife
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.7554/eLife.106758.1
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
