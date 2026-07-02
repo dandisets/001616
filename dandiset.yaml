@@ -32,14 +32,14 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 4686909468
-  numberOfFiles: 57
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 2383696012
+  numberOfFiles: 29
   numberOfSubjects: 29
   schemaKey: AssetsSummary
   species:
@@ -47,9 +47,9 @@ assetsSummary:
     name: Homo sapiens - Human
     schemaKey: SpeciesType
   variableMeasured:
-  - ProcessingModule
   - Units
   - ElectrodeGroup
+  - ProcessingModule
 citation: 'Darcher, Alana; Gerken, Franziska; Niediek, Johannes; Kehl, Marcel S; Reber,
   Thomas P; Liebe, Stefanie; Nett, Laura; Racz, Attila; Kunz, Lukas; Staresina, Bernhard;
   Rapp, Rachel; Gonçalves, Pedro J; Elezi, Ismail; Borger, Valeri; Surges, Rainer;
@@ -255,53 +255,6 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- awardNumber: 031L0197A-C
-  identifier: https://ror.org/04pz7b180
-  name: German Federal Ministry of Education and Research (BMBF)
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: '390727645'
-  identifier: https://ror.org/018mejw64
-  name: German Research Foundation (DFG)
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: '276693517'
-  identifier: https://ror.org/018mejw64
-  name: German Research Foundation (DFG)
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: '227953431'
-  identifier: https://ror.org/018mejw64
-  name: German Research Foundation (DFG)
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: '520287829'
-  identifier: https://ror.org/018mejw64
-  name: German Research Foundation (DFG)
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: MO 930/4-2
-  identifier: https://ror.org/018mejw64
-  name: German Research Foundation (DFG)
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: M 930/15-1
-  identifier: https://ror.org/018mejw64
-  name: German Research Foundation (DFG)
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: iBehave
-  name: NRW Network Grant
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
 dateCreated: '2025-09-29T12:19:12.581381+00:00'
 description: 'SUMMER: Single Unit activity during a Movie in human Medial temporal
   lobe via Electrophysiological Recordings. This machine learning-ready dataset contains
